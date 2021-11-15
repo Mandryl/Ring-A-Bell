@@ -43,3 +43,10 @@
 ## Create a ticket  
 ### 1. Open a form  
 - Hit **Report problems** button from the screen below.  
+  
+  ![](https://github.com/Mandryl/Ring-A-Bell/blob/main/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202021-11-15%20222539.png)  
+  
+### 2. Fill out the form  
+- Complete the form. You can send it anonymously.   
+  
+  ![](https://github.com/Mandryl/Ring-A-Bell/blob/main/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202021-11-15%20222730.png)  
