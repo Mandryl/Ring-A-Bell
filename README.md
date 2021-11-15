@@ -31,6 +31,6 @@ After installation, please personalise your LINE account. For more detail, pleas
   
   ![](https://github.com/Mandryl/HackAPAC/blob/main/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202021-11-15%20204918.png)  
   
-Now that you complete **Before using Ring A Bell** procedure, you can send a mesage to this app.  
+**Now that you complete Before using Ring A Bell procedure, you can send a mesage to this app.**  
   
   ![](https://github.com/Mandryl/HackAPAC/blob/main/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202021-11-15%20205136.png)  
