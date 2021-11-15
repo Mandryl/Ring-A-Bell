@@ -1,7 +1,7 @@
 # Ring A Bell  
 ## TOC
 #### - [Before using Ring A Bell](https://github.com/Mandryl/Ring-A-Bell#before-using-ring-a-bell)  
-#### - [Create a ticket]()  
+#### - [Create a ticket](https://github.com/Mandryl/Ring-A-Bell/blob/main/README.md#create-a-ticket)  
 #### - []()  
 
 ## Before using Ring A Bell  
