@@ -2,7 +2,7 @@
 ## TOC
 #### - [Before using Ring A Bell](https://github.com/Mandryl/Ring-A-Bell#before-using-ring-a-bell)  
 #### - [Create a ticket](https://github.com/Mandryl/Ring-A-Bell/blob/main/README.md#create-a-ticket)  
-#### - [Take a counseling (To be released)](https://github.com/Mandryl/Ring-A-Bell/blob/main/README.md#take-a-counseling)  
+#### - [Take a counseling (To be released)](https://github.com/Mandryl/Ring-A-Bell/blob/main/README.md#take-a-counseling-to-be-released)  
 
 ## Before using Ring A Bell  
 ### 1. Install LINE app  
