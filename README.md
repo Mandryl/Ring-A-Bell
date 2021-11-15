@@ -1,4 +1,4 @@
-# HackAPAC  
+# Ring A Bell  
 ## Before using Ring A Bell  
 ### 1. Install LINE app  
 At first, you need to install LINE app in order to use Ring A Bell. You can install LINE to your smartphone or laptop.  
