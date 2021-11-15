@@ -2,7 +2,7 @@
 ## TOC
 #### - [Before using Ring A Bell](https://github.com/Mandryl/Ring-A-Bell#before-using-ring-a-bell)  
 #### - [Create a ticket](https://github.com/Mandryl/Ring-A-Bell/blob/main/README.md#create-a-ticket)  
-#### - []()  
+#### - [Take a counseling]()  
 
 ## Before using Ring A Bell  
 ### 1. Install LINE app  
@@ -50,3 +50,12 @@
 - Complete the form and hit **Send Report** button. You can send it anonymously.   
   
   ![](https://github.com/Mandryl/Ring-A-Bell/blob/main/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202021-11-15%20222730.png)  
+  
+## Take a counseling  
+### 1. Open a form  
+- Hit **Reserve a seat** button. Then a form is supposed to be opened.  
+- Currently this feature has not implemented yet. But when you visit for the first time, you are guided to a page for installing Webex meeting app.  
+  
+  ![](https://github.com/Mandryl/Ring-A-Bell/blob/main/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202021-11-15%20230545.png)  
+    
+  ![](https://github.com/Mandryl/Ring-A-Bell/blob/main/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202021-11-15%20230639.png)  
