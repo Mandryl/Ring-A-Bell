@@ -1,6 +1,12 @@
 <template>
   <div class="home">
-    <el-container>
+    <el-container
+    v-loading="loading"
+    element-loading-text="Sending..."
+    :element-loading-spinner="svg"
+    element-loading-svg-view-box="-10, -10, 50, 50"
+    element-loading-background="rgba(0, 0, 0, 0.8)"
+    >
       <el-header class="header">
         <img src="../assets/Ring_A_Bell_logo.png" class="header-image" />
         <h1>Ring A Bell</h1>
@@ -38,6 +44,7 @@ export default {
   name: "Home",
   components: {},
   data: () => ({
+    loading:false,
     form: {
       name: "",
       problem: "",
@@ -45,6 +52,25 @@ export default {
     },
     url:"http://trouble-api-vol1003-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/troubles"
   }),
+  methods: {
+    onSubmit(){
+      const name = (this.form.anonymous)? "anonymous": this.form.name;
+      const problem = this.form.problem;
+      this.loading = true;
+      this.axios.post(this.url,{
+        student_name:name,
+        description:problem,
+        summary:problem,
+        comments:[],
+        id:"P"+Date.now(),
+        status:"Open"
+      }).then((res)=>{
+        this.loading = false;
+      }).catch((error)=>{
+        this.loading = false;
+      });
+    }
+  }
 };
 </script>
 

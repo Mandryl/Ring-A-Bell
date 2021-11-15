@@ -6,4 +6,7 @@ import store from './store'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 
-createApp(App).use(ElementPlus).use(store).use(router).mount('#app')
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+
+createApp(App).use(ElementPlus).use(VueAxios, axios).use(store).use(router).mount('#app')
