@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+requests
+dataclasses-json
+vald-client-python
+transformers
+sentence-transformers

@@ -1,0 +1,36 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: trouble-api
+  namespace: vol1003-dev
+  labels:
+    app: trouble-api
+spec:
+  template:
+    spec:
+      containers:
+        - image: image-registry.openshift-image-registry.svc:5000/vol1003-dev/trouble-api
+          imagePullPolicy: "IfNotPresent"
+          resources:
+            requests:
+              memory: 500Mi # container may be killed if reaches this value
+            limits:
+              memory: 1Gi # container is killed if reaches this value
+          env:
+            - name: PROJECT_KEY
+              value: "HAC"
+            - name: ISSUE_TYPE
+              value: "10002"
+            - name: DEFAULT_ASSIGNEE
+              value: "tomonobu.sembokuya@ibm.com"
+            - name: VALD_HOST
+              value: "vald-agent-ngt"
+            - name: VALD_PORT
+              value: "8081"
+            - name: KEYWORD_API_URL
+              value: "http://flask-api.kazuki-hack-dev.srv.cluster.local"
+          envFrom:
+            - secretRef:
+                name: jira-config
+          ports:
+            - containerPort: 8000

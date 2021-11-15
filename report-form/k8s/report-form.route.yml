@@ -1,0 +1,11 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: report-form
+  namespace: kazuki-hack-dev
+  labels:
+    app: report-form
+spec:
+  to:
+    kind: Service
+    name: report-form

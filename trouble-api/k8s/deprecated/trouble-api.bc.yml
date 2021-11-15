@@ -1,0 +1,17 @@
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  name: trouble-api
+  namespace: vol1003-dev
+spec:
+  runPolicy: "Serial"
+  source:
+    git:
+      uri: "https://github.com/Mandryl/trouble-api"
+  strategy:
+    dockerStrategy:
+      dockerfilePath: "Dockerfile"
+  output:
+    to:
+      kind: "ImageStreamTag"
+      name: "trouble-api:latest"

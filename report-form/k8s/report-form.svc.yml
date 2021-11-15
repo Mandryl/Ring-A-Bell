@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: report-form
+  namespace: kazuki-hack-dev
+  labels:
+    app: report-form
+spec:
+  type: ClusterIP
+  selector:
+    app: report-form
+  ports:
+    - name: http
+      port: 8080
+      protocol: TCP
+      targetPort: 8080

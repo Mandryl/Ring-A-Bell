@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: report-form
+  namespace: kazuki-hack-dev
+  labels:
+    app: report-form
+spec:
+  selector:
+    matchLabels:
+      app: report-form
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: report-form
+    spec:
+      containers:
+        - name: report-form
+          image: image-registry.openshift-image-registry.svc:5000/kazuki-hack-dev/report-form@sha256:47c889570dd6182196747a60f0330930bc2b898357156a32643bee7e7f7af1c0
+          imagePullPolicy: "IfNotPresent"
+          ports:
+            - containerPort: 8080

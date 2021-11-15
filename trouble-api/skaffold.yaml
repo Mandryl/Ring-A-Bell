@@ -1,0 +1,19 @@
+apiVersion: skaffold/v2beta23
+kind: Config
+metadata:
+  name: trouble-api
+build:
+  tagPolicy:
+    sha256: { }
+  artifacts:
+    - image: default-route-openshift-image-registry.apps.sandbox-m2.ll9k.p1.openshiftapps.com/vol1003-dev/trouble-api
+      docker:
+        dockerfile: Dockerfile
+  local:
+    push: true
+deploy:
+  kubectl:
+    manifests:
+      - k8s/jira-config.secret.yml
+      - k8s/trouble-api.is.yml
+      - k8s/trouble-api.svc.yml
